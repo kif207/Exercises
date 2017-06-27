@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercises
 {
@@ -10,6 +6,10 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
+            FibonacciSeries.RunFibonacciSeries();
+            RegularExpressionExamples.ExtractProtocolAndPort();
+            Console.ReadKey();
         }
+
     }
 }
